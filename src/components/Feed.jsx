@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
+
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos, SideBar } from "./";
 
@@ -34,7 +35,7 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
-          Copyright © 2022 JSM Media
+          Copyright © 2022 D-ALPHA Media
         </Typography>
       </Box>
 
@@ -53,4 +54,5 @@ const Feed = () => {
     </Stack>
   );
 };
+
 export default Feed;
